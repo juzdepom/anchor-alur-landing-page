@@ -1,0 +1,86 @@
+body {
+  background: url('../img/alur-background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*CONTAINERS*/
+
+.whole-page {
+  height:100vh;
+  display: flex;
+}
+
+.container {
+  background-color: white;
+  width: 260px;
+  align-self: center;
+  margin-left: 50px;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.logo-container img{
+  display: block;
+  margin: auto;
+}
+
+.file-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.file{
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.file span{
+  font-family: DarwinRegular;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.contact-container {
+  margin-top: 10px;
+}
+
+.download-button {
+  font-family: DarwinRegular;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #004C81;
+  width: 100%;
+  display: block;
+  padding: 6px;
+  border-radius: 6px;
+
+}
+
+/*FONTS*/
+
+@font-face {
+font-family: DarwinRegular;
+src: url('../fonts/Darwin-Regular.otf');
+}
+
+p{
+  font-family: DarwinRegular;
+  color: #004C81;
+}
+
+.file-container p{
+  font-size: 14px;
+}
+
+.contact-container p{
+  font-size: 12px;
+  margin-bottom: 0px;
+}
